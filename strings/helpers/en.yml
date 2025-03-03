@@ -1,128 +1,89 @@
 Auth: |
-  <b>Auth Users can use Admin commands without admin rights in your chat.</b>
-
-  <b>✧ {0}</b> [Username] - Add a user to AUTH LIST of the Group.
-
-  <b>✧ {1}</b> [Username] - Remove a user from AUTH LIST of the group.
-
-  <b>✧ {2}</b> - Check AUTH LIST of the Group.
+  <b>Yetkili kullanıcılar, sohbetinizde yönetici hakları olmadan yönetici komutlarını kullanabilir.</b>
+  <b>✧ {0}</b> [Kullanıcı adı] - Kullanıcıyı grubun YETKİLİ listesine ekleyin.
+  <b>✧ {1}</b> [Kullanıcı adı] - Kullanıcıyı grubun YETKİLİ listesinden çıkarın.
+  <b>✧ {2}</b> - Grubun YETKİLİ listesini kontrol edin.
 
 Admin: |
-  <b>c stands for channel play</b>
-
-  <b>✧ {0}</b> - Pause the playing music.
-  <b>✧ {1}</b> - Resume the paused music.
-  <b>✧ {2}</b> - Mute the playing music.
-  <b>✧ {3}</b> - Unmute the muted music.
-  <b>✧ {4}</b> - Skip the current playing music.
-  <b>✧ {5}</b> - Stop the playing music.
-  <b>✧ {6}</b> - Randomly shuffle the queued playlist/songs.
-  <b>✧ {7}</b> - Forward seek the music.
-  <b>✧ {8}</b> - Backward seek the music to your duration.
-  <b>✧ {9}</b> - Reboot bot for your chat.
-
-  <b>✧ {4}</b> [Number (Example: 3)] - Skip music to a specific number. Example: <b>/skip 3</b> will skip to the third queued music and will ignore 1 and 2 in the queue.
-
-  <b>✧ {10}</b> [Enable/Disable] or [Number between 1-10] - When activated, the bot will loop the current music 1-10 times in voice chat. Default loop value is 10 times.
-
+  <b>c, kanal oynatmayı ifade eder</b>
+  <b>✧ {0}</b> - Çalan müziği duraklatın.
+  <b>✧ {1}</b> - Duraklatılmış müziği devam ettirin.
+  <b>✧ {2}</b> - Çalan müziğin sesini kapatın.
+  <b>✧ {3}</b> - Sessiz müziği tekrar açın.
+  <b>✧ {4}</b> - Şu anda çalan müziği atlayın.
+  <b>✧ {5}</b> - Çalan müziği durdurun.
+  <b>✧ {6}</b> - Kuyruktaki çalma listesini/şarkıları rastgele karıştırın.
+  <b>✧ {7}</b> - Müziği ileri sarın.
+  <b>✧ {8}</b> - Müziği geriye sararak belirtilen süreye dönün.
+  <b>✧ {9}</b> - Botu sohbetiniz için yeniden başlatın.
+  <b>✧ {4}</b> [Sayı (Örnek: 3)] - Müziği belirli bir sıraya atlayın. Örnek: <b>/skip 3</b>, üçüncü sıradaki müziğe atlayacak ve 1 ile 2'yi geçecektir.
+  <b>✧ {10}</b> [enable/disable] veya [1-10 arasında bir sayı] - Etkinleştirildiğinde, bot mevcut müziği sesli sohbette 1-10 kez tekrar eder. Varsayılan döngü değeri 10'dur.
 
 Active: |
-  <b>✧ {0}</b> - Check active voice chats on the bot.
-
-  <b>✧ {1}</b> - Check active voice and video calls on the bot.
-
-  <b>✧ {2}</b> - Check active video calls on the bot.
-
-  <b>✧ {3}</b> - Check bot stats.
+  <b>✧ {0}</b> - Botta aktif sesli sohbetleri kontrol edin.
+  <b>✧ {1}</b> - Botta aktif sesli ve görüntülü aramaları kontrol edin.
+  <b>✧ {2}</b> - Botta aktif görüntülü aramaları kontrol edin.
+  <b>✧ {3}</b> - Bot istatistiklerini kontrol edin.
 
 Play: |
-  <b>✧ {0}</b> - Bot will start playing your given query on voice chat or stream live links on voice chats.
-
-  <b>✧ {1}</b> - Force Play stops the current playing track on voice chat and starts playing the searched track instantly without disturbing/clearing the queue.
-
-  <b>✧ {2}</b> - Connect channel to a group and stream music on channel's voice chat from your group.
-
-  <b>✧ {3}</b> - Stream a URL that you believe is direct or m3u8 that can't be played by /play.
+  <b>✧ {0}</b> - Bot, verilen sorguyu sesli sohbette çalmaya veya canlı bağlantıları yayınlamaya başlar.
+  <b>✧ {1}</b> - Zorla Çalma, mevcut çalan parçayı durdurur ve aranan parçayı hemen çalmaya başlar, kuyruğu rahatsız etmeden/silmeden.
+  <b>✧ {2}</b> - Bir kanalı bir gruba bağlayın ve grubunuzdan kanalın sesli sohbetinde müzik yayınlayın.
+  <b>✧ {3}</b> - Doğrudan veya m3u8 olduğunu düşündüğünüz ve /play ile çalınamayan bir URL yayınlayın.
 
 G-cast: |
-  <b>{0} [Message or Reply to any message]</b> » Broadcast a message to served chats of bot
-  <u>Broadcasting Modes:</u>
-
-  <b><code>-pin</code></b> » Pins your broadcasted message in served chats
-
-  <b><code>-pinloud</code></b> » Pins your broadcasted message in served chats and sends notification to the members
-
-  <b><code>-user</code></b> » Broadcast the message to users who have started your bot [You can also pin the message by adding `-pin` or `-pinloud`]
-
-  <b><code>-assistant</code></b> » Broadcast your message through all assistants of the bot
-
-  <b><code>-nobot</code></b> » Ensures that the **bot** doesn't broadcast the message [Useful when you don't want to broadcast the message to groups]
-
-  > <b>Example:</b> <code>/{0} -user -assistant -pin Testing broadcast</code>
-
+  <b>{0} [Mesaj veya herhangi bir mesaja yanıt]</b> » Botun hizmet verdiği sohbetlere bir mesaj yayınlayın
+  <u>Yayın Modları:</u>
+  <b><code>-pin</code></b> » Yayınlanan mesajı hizmet verilen sohbetlerde sabitleyin
+  <b><code>-pinloud</code></b> » Yayınlanan mesajı sabitleyin ve üyelere bildirim gönderin
+  <b><code>-user</code></b> » Mesajı botu başlatan kullanıcılara yayınlayın [Mesajı sabitlemek için `-pin` veya `-pinloud` ekleyebilirsiniz]
+  <b><code>-assistant</code></b> » Mesajınızı botun tüm asistanları aracılığıyla yayınlayın
+  <b><code>-nobot</code></b> » **Bot**'un mesajı yayınlamamasını sağlar [Mesajı gruplara yayınlamak istemediğinizde kullanışlıdır]
+  > <b>Örnek:</b> <code>/{0} -user -assistant -pin Test yayını</code>
 
 Bot: |
-  <b>★ {0}</b> - Get Top 10 Tracks Global Stats, Top 10 Users of Bot, Top 10 Chats on Bot, Top 10 Played in a chat, etc.
-
-  <b>★ {1}</b> - Check Sudo users of the bot.
-
-  <b>★ {2} [Music Name]</b> - Search lyrics for the particular music on the web.
-
-  <b>★ {3} [Track Name] or [YT Link]</b> - Download any track from YouTube in MP3 or MP4 formats.
-
-  <b>★ {4}</b> - Check the queue list of music.
-
-  <u><b>⚡️Private Bot:</b></u>
-      
-  <b>✧ {5} [CHAT_ID]</b> - Allow a chat to use your bot.
-
-  <b>✧ {6} [CHAT_ID]</b> - Disallow a chat from using your bot.
-
-  <b>✧ {7}</b> - Check all allowed chats of your bot.
-
+  <b>★ {0}</b> - En İyi 10 Parça Küresel İstatistikleri, Botun En İyi 10 Kullanıcısı, Botun En İyi 10 Sohbeti, Bir Sohbette En Çok Oynatılan 10 Parça vb.
+  <b>★ {1}</b> - Botun Sudo kullanıcılarını kontrol edin.
+  <b>★ {2} [Şarkı Adı]</b> - Belirli bir müzik için web'de söz arayın.
+  <b>★ {3} [Parça Adı] veya [YouTube Bağlantısı]</b> - YouTube'dan herhangi bir parçayı MP3 veya MP4 formatında indirin.
+  <b>★ {4}</b> - Müzik kuyruğunu kontrol edin.
+  <u><b>⚡️Özel Bot:</b></u>
+  <b>✧ {5} [CHAT_ID]</b> - Bir sohbetin botunuzu kullanmasına izin verin.
+  <b>✧ {6} [CHAT_ID]</b> - Bir sohbetin botunuzu kullanmasını engelleyin.
+  <b>✧ {7}</b> - Botunuzu kullanmasına izin verilen tüm sohbetleri kontrol edin.
 
 P-List: |
-  <b>{0}</b> - Check your whole playlist on the bot server
-
-  <b>{1}</b> - Delete any song from your saved playlist 
-
-  <b>{2}</b> - Start playing your saved playlist in **audio**
-
-  <b>{3}</b> - Start playing your playlist in **video**
+  <b>{0}</b> - Bot sunucusunda tüm oynatma listenizi kontrol edin
+  <b>{1}</b> - Kaydedilmiş oynatma listenizden herhangi bir şarkıyı silin
+  <b>{2}</b> - Kaydedilmiş oynatma listenizi **ses** olarak çalmaya başlayın
+  <b>{3}</b> - Oynatma listenizi **video** olarak çalmaya başlayın
 
 B-list: |
-  <b>✧ {0}</b> [chat ID] - Blacklist any chat from using the Music Bot.
-  <b>✧ {1}</b> [chat ID] - Whitelist any blacklisted chat from using the Music Bot.
-  <b>✧ {2}</b> - Check all blocked chats.
-
-  <b>✧ {3}</b> [Username or reply to a user] - Prevents a user from using bot commands.
-  <b>✧ {4}</b> [Username or reply to a user] - Remove a user from the bot's blocked list.
-  <b>✧ {5}</b> - Check the list of blocked users.
-
-  <b>✧ {6}</b> [Username or reply to a user] - Gban a user from all served chats and stop them from using your bot.
-  <b>✧ {7}</b> [Username or reply to a user] - Remove a user from the bot's gban list and allow them to use your bot.
-  <b>✧ {8}</b> - Check the list of gban users.
+  <b>✧ {0}</b> [chat ID] - Herhangi bir sohbeti Müzik Botunu kullanmaktan engelleyin.
+  <b>✧ {1}</b> [chat ID] - Kara listeye alınan herhangi bir sohbetin Müzik Botunu kullanmasına izin verin.
+  <b>✧ {2}</b> - Engellenen tüm sohbetleri kontrol edin.
+  <b>✧ {3}</b> [Kullanıcı adı veya bir kullanıcıya yanıt] - Kullanıcının bot komutlarını kullanmasını engelleyin.
+  <b>✧ {4}</b> [Kullanıcı adı veya bir kullanıcıya yanıt] - Kullanıcıyı botun engellenen listesinden çıkarın.
+  <b>✧ {5}</b> - Engellenen kullanıcıların listesini kontrol edin.
+  <b>✧ {6}</b> [Kullanıcı adı veya bir kullanıcıya yanıt] - Kullanıcıyı tüm hizmet verilen sohbetlerden yasaklayın ve botunuzu kullanmasını engelleyin.
+  <b>✧ {7}</b> [Kullanıcı adı veya bir kullanıcıya yanıt] - Kullanıcıyı küresel yasak listesinden çıkarın ve botunuzu kullanmasına izin verin.
+  <b>✧ {8}</b> - Küresel yasaklı kullanıcıların listesini kontrol edin.
 
 Dev: |
-  <b><u>Add and remove sudoers:</u></b>
-
-  <b>{0} [Username or reply to a user] - Add sudo in your bot</b>
-  <b>{1} [Username or userid or reply to a user] - Remove from bot sudoers</b>
-  <b>{2} - Get a list of all sudoers</b>
-
+  <b><u>Sudoers ekleme ve kaldırma:</u></b>
+  <b>{0} [Kullanıcı adı veya bir kullanıcıya yanıt] - Botunuza Sudo ekleyin</b>
+  <b>{1} [Kullanıcı adı veya kullanıcı kimliği veya bir kullanıcıya yanıt] - Kullanıcıyı bot sudoers'larından çıkarın</b>
+  <b>{2} - Tüm sudoers listesini alın</b>
   <b><u>Heroku:</u></b>
-
-  <b>{3}</b> - Dyno usage
-  <b>{4} [Var Name]</b> - Get a config var from vars
-  <b>{5} [Var Name]</b> - Delete a var from vars
-  <b>{6} [Var Name] [Value]</b> - Add or update a var. Separate var and its value with a space
-
-  <b><u>Bot command:</u></b>
-
-  <b>{7}</b> - Restart the bot (SUDOERS only)
-  <b>{8}</b> - Update the bot
-  <b>{9}</b> - Check server speeds
-  <b>{10} [enable / disable]</b> - Toggle bot maintenance mode
-  <b>{11} [enable / disable]</b> - Toggle bot logging of searched queries to log group
-  <b>{12} [Number of lines]</b> - Get logs from server
-  <b>{13} [enable / disable]</b> - Automatically end the stream after 30s if no one is listening to songs
+  <b>{3}</b> - Dyno kullanımı
+  <b>{4} [Değişken Adı]</b> - Bir yapılandırma değişkenini alın
+  <b>{5} [Değişken Adı]</b> - Bir yapılandırma değişkenini silin
+  <b>{6} [Değişken Adı] [Değer]</b> - Bir değişken ekleyin veya güncelleyin. Değişken ve değeri bir boşlukla ayırın
+  <b><u>Bot komutu:</u></b>
+  <b>{7}</b> - Botu yeniden başlatın (yalnızca SUDOERS)
+  <b>{8}</b> - Botu güncelleyin
+  <b>{9}</b> - Sunucu hızlarını kontrol edin
+  <b>{10} [enable/disable]</b> - Bot bakım modunu geçiş yapın
+  <b>{11} [enable/disable]</b> - Aranan sorguların log grubuna kaydedilmesini geçiş yapın
+  <b>{12} [Satır sayısı]</b> - Sunucudan günlükleri alın
+  <b>{13} [enable/disable]</b> - Eğer kimse şarkıyı dinlemiyorsa yayını 30 saniye sonra otomatik olarak bitirin

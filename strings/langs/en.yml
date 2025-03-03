@@ -258,14 +258,14 @@ UNBAN_BUTTON : "YASAKLAMAYI KALDIR"
 L_B_1 : "🚀 Şarkı sözlerini şimdi kontrol et"
 
 # Start
-S_B_1 : "🗒 Komutlar"
-S_B_2 : "🔧 Ayarlar"
-S_B_3 : "📨 Destek"
-S_B_4 : "📨 Kanal"
-S_B_5 : "✚ Beni Grupınıza Ekleyin ✚"
-S_B_6 : "💡 Git Repo"
-S_B_7 : "👤 Sahip"
-S_B_8 : "🔎 Nasıl Kullanılır? Komut Menüsü"
+S_B_1 : "🔮 𝐘𝐀𝐑𝐃𝐈𝐌 𝐊𝐎𝐌𝐔𝐓𝐋𝐀𝐑 🔮"
+S_B_2 : "⚡𝐀𝐘𝐀𝐑𝐋𝐀𝐑⚡"
+S_B_3 : "🔰𝐃𝐄𝐒𝐓𝐄𝐊🔰"
+S_B_4 : "📯𝐃𝐔𝐘𝐔𝐑𝐔📯"
+S_B_5 : "✚ 𝐁𝐄𝐍𝐈 𝐆𝐑𝐔𝐁𝐔𝐍Â 𝐄𝐊𝐋𝐄 ✚"
+S_B_6 : "👩‍💻𝐊𝐔𝐌𝐒𝐀𝐋 𝐗 𝐓𝐄𝐀𝐌👩‍💻"
+S_B_7 : "🩸𝐊𝐔𝐑𝐔𝐂𝐔🩸"
+S_B_8 : "🔮𝐘𝐀𝐑𝐃𝐈𝐌 𝐊𝐎𝐌𝐔𝐓𝐋𝐀𝐑🔮"
 
 #PlayMode
 PM_B_1 : "Doğrudan Çal"
@@ -280,13 +280,13 @@ P_B_4 : "🎵 Çalma Listesini Çal"
 
 P_B_5 : "SUSTUR"
 P_B_6 : "SUSTURMAYI KALDIR"
-P_B_7 : "ÇALMA LISTESİNE EKLE"
+P_B_7 : "𝐋𝐈𝐒𝐓𝐄𝐌𝐄 𝐄𝐊𝐋𝐄
 
 
 # Playlist
-PL_B_1 : "🚀 OYNAT ÇALMA LİSTESİ"
+PL_B_1 : "🚀 𝐏𝐋𝐀𝐘𝐋𝐈𝐒𝐓"
 PL_B_2 : "Çalma Listesi"
-PL_B_3 : "Daha Fazla"
+PL_B_3 : "𝐂 𝐏𝐀𝐍𝐄𝐋"
 PL_B_4 : "📡 OYNAT MODU"
 PL_B_5 : "🔄 Tüm Çalma Listesini Sil"
 PL_B_6 : "↗️ Çalma Listesini Sil"

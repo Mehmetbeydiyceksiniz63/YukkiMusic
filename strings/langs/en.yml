@@ -326,3 +326,134 @@ ST_B_25 : "✅ Çevrimiçi"
 ST_B_26 : "👨‍⚖️ Yönetici Komutları"
 ST_B_27 : "🏘 Grup"
 ST_B_28 : "🏷 Kanal"
+ST_B_29 : "🫂 Çalma Türü"
+ST_B_30 : "🗑 Komut Temizle"
+ST_B_31 : "🧑‍🚀 Öneri Modu"
+
+# Song
+SG_B_1 : "↗️ ÖZELDE AÇ"
+SG_B_2 : "🔊 Ses"
+SG_B_3 : "🎥 Video"
+
+# Stats
+SA_B_1 : "📢 İlk 10 Sohbet"
+SA_B_2 : "🔢 İlk 10 Şarkı"
+SA_B_3 : "🧛 İlk 10 Kullanıcı"
+SA_B_4 : "🏷 İlk 10 Burada"
+SA_B_5 : "💡 Genel İstatistikler"
+SA_B_6 : "👤 Kullanıcı İstatistikleri"
+SA_B_7 : "🔢 Global İlk 10 İstatistikleri"
+SA_B_8 : "🤖 Bot İstatistikleri"
+
+# Queue
+QU_B_1 : "📑 Bekleyen Liste"
+QU_B_2 : "Çalındı {0} / {1} Dakika"
+
+# Sudo Users [ If you are translating this to some other language .. you can leave all these strings in english language]
+
+# Sudo
+sudo_1 : "{0} zaten bir sudo kullanıcısı."
+sudo_2 : "Eklendi **{0}** sudo kullanıcılarına."
+sudo_3 : "Bot'un sudo'suna dahil değil."
+sudo_4 : "Bot'un sudo kullanıcısından çıkarıldı."
+sudo_5 : "🔥<u> **Sahipler:**</u>\n"
+sudo_6 : "\n🔥<u> **Sudo Kullanıcıları:**</u>\n"
+sudo_7 : "Sudo kullanıcısı bulunamadı."
+
+# Block
+block_1 : "{0} zaten bot'tan engellendi."
+block_2 : "Eklendi **{0}** engelli listeye. Kullanıcı artık bot'u hiçbir koşulda kullanamaz.\n\nEngellenmiş kullanıcıları kontrol et: /blockedusers"
+block_3 : "Kullanıcı zaten serbest."
+block_4 : "Kullanıcı engelli listeden çıkarıldı. Kullanıcı artık bot'u kullanabilir."
+block_5 : "Engelli kullanıcı bulunamadı."
+block_6 : "Engelli kullanıcı listesi alınıyor... lütfen bekleyin!"
+block_7 : "**ENGELLİ KULLANICILAR:**\n\n"
+
+# Blacklist Chats
+black_1 : "**KULLANIM:**\n/blacklistchat [CHAT_ID]"
+black_2 : "Sohbet zaten kara listeye alınmış."
+black_3 : "Sohbet başarılı bir şekilde kara listeye alındı"
+black_4 : "**KULLANIM:**\n/whitelistchat [CHAT_ID]"
+black_5 : "Sohbet zaten beyaz listeye alınmış."
+black_6 : "Sohbet başarılı bir şekilde beyaz listeye alındı"
+black_7 : "**KARA LİSTEDEKİ SOHBETLER:**\n\n"
+black_8 : "Kara listede sohbet bulunamadı."
+
+# Video Limit
+vid_1 : "**KULLANIM:**\n/set_video_limit [Sohbet Sayısı] veya [Devre Dışı]"
+vid_2 : "Limit belirlemek için lütfen sayısal değerler kullanın."
+vid_3 : "Video çağrıları maksimum limit {0} sohbet olarak belirlendi."
+vid_4 : "Video çağrıları devre dışı bırakıldı."
+
+# Maintenance
+maint_1 : "**KULLANIM:**\n/maintenance [enable|disable]"
+maint_2 : "Bakım modu etkinleştirildi."
+maint_3 : "Bakım modu devre dışı bırakıldı."
+maint_4: "🛠️ Bot bakımda. Sebebi öğrenmek için desteği ziyaret edin."
+maint_5: "Bakım Modu zaten devre dışı."
+maint_6: "Bakım Modu zaten etkin."
+
+
+# Log
+log_1 : "**KULLANIM:**\n/logger [enable|disable]"
+log_2 : "Günlükleme etkinleştirildi."
+log_3 : "Günlükleme devre dışı bırakıldı."
+#videomode
+vidmode_1 : "**KULLANIM:**\n/videomode [download|m3u8]"
+vidmode_2 : "Video oynatma modu indirici olarak ayarlandı. Bot şimdi parçaları indirecek."
+vidmode_3 : "Video oynatma modu m3u8 olarak ayarlandı. Bot artık parçaları canlı oynatabilecek."
+
+#broadcast
+broad_1 : "**MESAJ {0} SOHBETTE {1} PINLERLE BOT TARAFINDAN YAYINLANDI.**"
+broad_2 : "Yardımcı yayını başlatıldı..."
+broad_3 : "**Yardımcı Yayın:\n\n"
+broad_4 : "Yardımcı {0} {1} sohbette yayın yaptı.\n"
+broad_5 : "**KULLANIM**:\n/broadcast [MESAJ] veya [Bir Mesaja Yanıtla]"
+broad_6 : "Lütfen yayına verecek bazı metinler sağlayın."
+broad_7 : "**{0} kullanıcıya {1} sabitlenmiş ile bottan başarıyla yayınlandı.**"
+
+
+#Heroku
+heroku_1 : "Lütfen **HEROKU API ANAHTARI** ve **UYGULAMA ADI** bilgilerinizin Heroku'da doğru şekilde yapılandırıldığından emin olun."
+heroku_2 : "Sadece Heroku uygulamalarının günlüklerini alabilirsiniz."
+heroku_3 : "**KULLANIM:**\n/get_var [Değişken Adı]"
+heroku_4 : "Böyle bir değişken bulunamadı."
+heroku_5 : ".env dosyası bulunamadı."
+heroku_6 : "**KULLANIM:**\n/del_var [Değişken Adı]"
+heroku_7 : "{0} silindi."
+heroku_8 : "**KULLANIM:**\n/set_var [Değişken Adı] [Değişken Değeri]"
+heroku_9 : "{0} başarılı bir şekilde güncellendi."
+heroku_10 : "{0} başarılı bir şekilde eklendi."
+heroku_11 : "Sadece Heroku uygulamaları için."
+heroku_12 : "Heroku kullanımını kontrol ediliyor... lütfen bekleyin!"
+heroku_13 : "Mevcut güncellemeleri kontrol ediliyor..."
+heroku_14 : "Git komut hatası."
+heroku_15 : "Geçersiz git deposu."
+
+#Private bot mode
+pbot_1 : "**KULLANIM:**\n/authorize [CHAT_ID]"
+pbot_2 :  "**KULLANIM:**\n/unauthorize [CHAT_ID]"
+pbot_3 : "Verilen sohbet yetkilendirilmiş listeye eklendi."
+pbot_4 : "Verilen sohbet yetkilendirilmiş listeden çıkarıldı."
+pbot_5 : "Sohbet zaten yetkilendirilmiş listede."
+pbot_6 : "Böyle bir sohbet yetkilendirilmiş listede mevcut değil."
+pbot_7 : "Sohbet kimliğini doğrulamada hata oluştu.\n\nLütfen numarik olduğundan ve doğru formatta olduğundan emin olun. Sohbet kullanıcı adı veya bağlantıları kullanmayın."
+pbot_8 : "Lütfen bekleyin... Yetkilendirilmiş sohbetler alınıyor..."
+pbot_9 : "**<b>ALINAN SOHBETLER:</b>**\n\n"
+pbot_10 : "Özel Sohbet"
+pbot_11 : "Yetkilendirilmiş sohbet bulunamadı."
+pbot_12 : "Özel bot modu devre dışı bırakıldı.\n\nBot'unuzu özel bot olarak kullanmak için **PRIVATE_BOT_MODE** = **TRUE** olarak ayarladığınızdan emin olun."
+pbot_13 : "\n**<b>ALINAMAYAN SOHBETLER:</b>**\n\n"
+
+#Gbanned
+gban_1 : "Kendinizi gbanlayamazsınız mı? Korkak noob!"
+gban_2 : "Kendinizi gbanlamamı mı istiyorsunuz?"
+gban_3 : "Eski sevgilimi mi gbanlamamı istiyorsunuz?"
+gban_4 : "{0} zaten **GBANLANMIŞ** olarak bot'tan engellendi."
+gban_5 : "**GLOBAL BAN BOT VERİTABANINDA ÇALIŞIYOR - YUKKI EKİBİ TARAFINDAN**\n\n**{0} ÜZERİNDE GABANLANIYOR**\n\n **BEKLENEN SÜRE** : {1}."
+gban_6 : " **GBANLANMIŞ BAŞARILI BİR ŞEKİLDE BOT VERİTABANINA\n\n **{0}** SOHBETLERDEN **{1}** ENGELLENDİ\n **GBANLANMIŞ OLAN: TEAM YUKKI**"
+gban_7 : "{0} **GBANLANMIŞ** DEĞİL, NASIL GERİ ALABİLİRİM?"
+gban_8 : "**{0} GBANINDAN ÇIKARILIYOR**\n\nBEKLENEN SÜRE : {1}."
+gban_9 : " **GBANINDAN BAŞARILI BİR ŞEKİLDE ÇIKARILDI BOT VERİTABANINA\n\n **{0}** SOHBETLERDE **{1}**\n **GBANINDAN ÇIKARILMIŞ: TheTeamVivek**"
+gban_10 : "Kimse gbanlanmamış."
+gban_11 : "GBANLANMIŞ KULLANICILAR LİSTESİ ALINIYOR..."
